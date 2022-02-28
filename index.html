@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/52/52053.png">
+
+    <title>Reddit</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <ul class ="grid-1">
+            <li><strong> My Subreddit </strong></li>
+            <li> - </li>
+            <li> Home </li>
+            <li> - </li>
+            <li> All </li>
+            <li> - </li>
+            <li> Random </li>
+            <li> - </li>
+            <li> Users </li>
+        </ul>
+
+    </header>
+
+    <nav class="grid-3">
+
+        <img src="./reddit.png" alt="REDDIT" class="reddit-pic">
+        
+        <div>
+            <ul>
+                <li>Hot</li>
+                <li>New</li>
+                <li>Rising</li>
+                <li>Wiki</li>
+                <li>Top</li>
+            </ul>
+        </div>
+        
+        <div class="user-profile">
+            <div>
+                <ul>
+                    <li>iavinashsingh</li>
+                    <li>(4500)</li>
+                    <li><strong>Preferences</strong></li>
+                    <li>Logout</li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="main" class="main-class">
+
+    <div class="post">
+
+        <div class="post-upvotes">
+
+            <div class='arrow-up'
+                onclick='upvote()'>
+                <i class="fa fa-chevron-up"></i>
+            </div>
+
+            <div id="votes">1000</div>
+
+            <div class='arrow-down'
+                onclick='downvote()'>
+                <i class="fa fa-chevron-down"></i>
+            </div>
+
+        </div>
+
+        <div class="post-body">
+
+            <a href="#" class="post-title">Make a Reddit clone</a>
+
+            <p>Submitted 3 Hours ago by <a class='submit-link' href='#'>iavinashsingh</a> to <a class='submit-link' href='#'>/r/redditclones</a></p>
+
+            <div class="post-options">
+                <span>Comments</span>
+                <span>Shares</span>
+                <span>Save</span>
+                <span>Hide</span>
+                <span>Report</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-container">
+
+        <input type="text" placeholder="Search.." name="search">  
+        <button type="submit">
+            <i class="fa fa-search"></i>
+        </button>
+        <br>
+        <br>
+
+        <button class='user-action-button'>
+            Submit a New Link
+        </button>
+        <br>
+
+        <button class='user-action-button'>
+            Submit a New Text Post
+        </button>
+        <br>
+
+        <button class='user-action-button'>
+            Create your own Sub-reddit
+        </button>
+        <br>
+        
+
+        <div class="reddit-gold">
+
+            <div>Daily Reddit Gold Goal</div>
+
+            <div>
+                <div class="bar-container">
+                    <div class="bar"></div>
+                </div>
+
+                <span class="gold-percentage"> 75% </span>
+                
+            </div>
+
+            <button class="reddit-gold-support">help support reddit</button>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+</html>
